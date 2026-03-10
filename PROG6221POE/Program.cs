@@ -88,6 +88,7 @@ class Program
             }
 
             string response = GetResponse(input.ToLower());
+
             Console.ForegroundColor = ConsoleColor.Cyan;
             TypeText("Bot: " + response);
             Console.ResetColor();
