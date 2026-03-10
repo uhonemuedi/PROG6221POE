@@ -113,7 +113,24 @@ class Program
             return "Phishing is when attackers trick you into revealing personal info. Never click suspicious links!";
         else if (input.Contains("safe browsing") || input.Contains("browsing"))
             return "Always check for HTTPS in the URL, avoid unknown sites, and keep your browser updated.";
+        else if (input.Contains("malware"))
+            return "Malware is malicious software. Always use antivirus and avoid downloading unknown files.";
+        else if (input.Contains("vpn"))
+            return "A VPN encrypts your internet connection. Use one on public Wi-Fi to stay safe.";
+        else if (input.Contains("two factor") || input.Contains("2fa"))
+            return "Two-factor authentication adds an extra layer of security. Always enable it where possible!";
+        else if (input.Contains("browsing"))
+            return "Always check for HTTPS...";
+        else if (input.Contains("malware"))
+            return "Malware is malicious software. Always use antivirus and avoid downloading unknown files.";
+        else if (input.Contains("vpn"))
+            return "A VPN encrypts your internet connection. Use one on public Wi-Fi to stay safe.";
+        else if (input.Contains("two factor") || input.Contains("2fa"))
+            return "Two-factor authentication adds an extra layer of security. Always enable it where possible!";
         else if (input.Contains("exit"))
+            return "Goodbye! Stay safe online!";
+        else if (input.Contains("exit"))
+
             return "Goodbye! Stay safe online!";
         else
             return "I don't quite understand that. Can you rephrase?";
