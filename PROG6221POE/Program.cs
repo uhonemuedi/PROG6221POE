@@ -7,7 +7,7 @@ class Program
     static void Main(string[] args)
     {
         PlayGreeting();
-        DisplayAsciiArt();
+        Console.ForegroundColor = ConsoleColor.Cyan;
         GreetUser();
         StartChat();
     }
