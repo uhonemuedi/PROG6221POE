@@ -143,7 +143,7 @@ class Program
         foreach (char c in text)
         {
             Console.Write(c);
-            Thread.Sleep(18);
+            Thread.Sleep(15);
         }
         Console.WriteLine();
     }
