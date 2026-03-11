@@ -7,7 +7,9 @@ class Program
     static void Main(string[] args)
     {
         PlayGreeting();
+        Console.BackgroundColor = ConsoleColor.DarkBlue;
         Console.ForegroundColor = ConsoleColor.Cyan;
+        Console.Clear();
         GreetUser();
         StartChat();
     }
