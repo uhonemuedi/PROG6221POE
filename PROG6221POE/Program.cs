@@ -6,10 +6,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        PlayGreeting();
-        Console.BackgroundColor = ConsoleColor.DarkBlue;
-        Console.ForegroundColor = ConsoleColor.Cyan;
+        Console.BackgroundColor = ConsoleColor.Black;
+        Console.ForegroundColor = ConsoleColor.White;
         Console.Clear();
+        PlayGreeting();
+        DisplayAsciiArt();
         GreetUser();
         StartChat();
     }
@@ -43,15 +44,15 @@ class Program
         ");
         Console.ForegroundColor = ConsoleColor.Yellow;
         Console.WriteLine("  === Cybersecurity Awareness Bot ===");
-        Console.ResetColor();
+        Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine();
     }
 
     static void GreetUser()
     {
-        Console.ForegroundColor = ConsoleColor.Green;
+        Console.ForegroundColor = ConsoleColor.Magenta;
         TypeText("What is your name? ");
-        Console.ResetColor();
+        Console.ForegroundColor = ConsoleColor.White;
         string name = Console.ReadLine();
 
         if (string.IsNullOrWhiteSpace(name))
@@ -60,9 +61,10 @@ class Program
         Console.WriteLine();
         Console.ForegroundColor = ConsoleColor.Cyan;
         Console.WriteLine("╔══════════════════════════════════════════╗");
+        Console.ForegroundColor = ConsoleColor.Green;
         TypeText($"  Welcome, {name}! I'm your Cybersecurity Assistant.");
+        Console.ForegroundColor = ConsoleColor.Cyan;
         Console.WriteLine("╚══════════════════════════════════════════╝");
-        Console.ResetColor();
         Console.WriteLine();
     }
 
@@ -70,30 +72,27 @@ class Program
     {
         Console.ForegroundColor = ConsoleColor.Yellow;
         TypeText("You can ask me about: passwords, phishing, safe browsing, or just say 'how are you'.");
-        Console.ResetColor();
         Console.WriteLine();
 
         while (true)
         {
-            Console.ForegroundColor = ConsoleColor.Green;
+            Console.ForegroundColor = ConsoleColor.Magenta;
             Console.Write("You: ");
-            Console.ResetColor();
+            Console.ForegroundColor = ConsoleColor.White;
             string input = Console.ReadLine();
 
             if (string.IsNullOrWhiteSpace(input))
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 TypeText("Bot: I didn't quite understand that. Can you rephrase?");
-                Console.ResetColor();
                 Console.WriteLine();
                 continue;
             }
 
             string response = GetResponse(input.ToLower());
-
-            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.ForegroundColor = ConsoleColor.Green;
             TypeText("Bot: " + response);
-            Console.ResetColor();
+            Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine();
 
             if (input.ToLower() == "exit")
@@ -121,18 +120,7 @@ class Program
             return "A VPN encrypts your internet connection. Use one on public Wi-Fi to stay safe.";
         else if (input.Contains("two factor") || input.Contains("2fa"))
             return "Two-factor authentication adds an extra layer of security. Always enable it where possible!";
-        else if (input.Contains("browsing"))
-            return "Always check for HTTPS...";
-        else if (input.Contains("malware"))
-            return "Malware is malicious software. Always use antivirus and avoid downloading unknown files.";
-        else if (input.Contains("vpn"))
-            return "A VPN encrypts your internet connection. Use one on public Wi-Fi to stay safe.";
-        else if (input.Contains("two factor") || input.Contains("2fa"))
-            return "Two-factor authentication adds an extra layer of security. Always enable it where possible!";
         else if (input.Contains("exit"))
-            return "Goodbye! Stay safe online!";
-        else if (input.Contains("exit"))
-
             return "Goodbye! Stay safe online!";
         else
             return "I don't quite understand that. Can you rephrase?";
