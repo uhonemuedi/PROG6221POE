@@ -74,10 +74,10 @@ namespace PROG6221POE_Part2
 
             // Title label
             Label lblTitle = new Label();
-            lblTitle.Text = "🔒 CYBERSECURITY AWARENESS BOT 🔒";
+            lblTitle.Text = "█▀▀ █▄█ █▄▄ █▀▀ █▀█ ▄▄ █▀ █▀▀ █▀▀ █ █ █▀█ █ ▀█▀ █▄█\n█▄▄ ░█░ █▄█ ██▄ █▀▄ ░░ ▄█ ██▄ █▄▄ █▄█ █▀▄ █ ░█░ ░█░";
             lblTitle.ForeColor = Color.Cyan;
             lblTitle.Font = new Font("Consolas", 14, FontStyle.Bold);
-            lblTitle.Size = new Size(760, 40);
+            lblTitle.Font = new Font("Consolas", 9, FontStyle.Bold);
             lblTitle.Location = new Point(10, 10);
             lblTitle.TextAlign = ContentAlignment.MiddleCenter;
             this.Controls.Add(lblTitle);
