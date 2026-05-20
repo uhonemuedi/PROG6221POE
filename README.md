@@ -50,7 +50,39 @@
 
 
 
+
+
 \## Presentation Video
 
 https ://youtu.be/nz1mFJ-X7xo
+
+\## Part 2 - GUI Chatbot
+
+A WinForms GUI application that expands the Part 1 console chatbot.
+
+
+
+\### New Features in Part 2
+
+\- Graphical User Interface using WinForms
+
+\- Keyword recognition for 12 cybersecurity topics
+
+\- Random responses for varied interactions
+
+\- Memory and recall of user name and favourite topic
+
+\- Sentiment detection for worried, frustrated, curious and happy users
+
+\- Conversation flow with follow up questions
+
+\- Error handling for unknown inputs
+
+\- Voice greeting on startup
+
+
+
+\## Part 2 Presentation Video
+
+\[Add YouTube link here]
 

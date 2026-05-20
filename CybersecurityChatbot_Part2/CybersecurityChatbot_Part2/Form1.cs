@@ -77,7 +77,22 @@ namespace CybersecurityChatbot_Part2
                 "Encryption converts your data into code to prevent unauthorised access!",
                 "Always use encrypted connections (HTTPS) when browsing sensitive websites!",
                 "Encrypt sensitive files on your device to protect them if stolen!"
-            }}
+            }},
+            { "ransomware", new List<string> {
+    "Ransomware encrypts your files and demands payment. Always back up your data!",
+    "Never pay ransomware attackers as it encourages more attacks!",
+    "Keep your software updated to protect against ransomware vulnerabilities!"
+}},
+{ "social engineering", new List<string> {
+    "Social engineering manipulates people into revealing confidential information!",
+    "Always verify the identity of anyone asking for sensitive information!",
+    "Be suspicious of unsolicited calls or emails asking for personal details!"
+}},
+{ "backup", new List<string> {
+    "Always back up your important data regularly to prevent data loss!",
+    "Use the 3-2-1 backup rule: 3 copies, 2 different media, 1 offsite!",
+    "Test your backups regularly to make sure they can be restored!"
+}}
         };
 
         public Form1()
