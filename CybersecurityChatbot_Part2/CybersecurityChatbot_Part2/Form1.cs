@@ -1,4 +1,15 @@
-﻿using System;
+﻿
+// ============================================================
+// PROG6221POE - Part 2
+// Cybersecurity Awareness Chatbot - GUI Version
+// Student: Pearl
+// Student Number: ST10474866
+// Date: May 2026
+// Description: A WinForms GUI chatbot that educates users on
+// cybersecurity topics using keyword recognition, sentiment
+// detection, memory recall and random responses.
+// ============================================================
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Media;
