@@ -84,5 +84,5 @@ A WinForms GUI application that expands the Part 1 console chatbot.
 
 \## Part 2 Presentation Video
 
-\[Add YouTube link here]
+\[https://youtu.be/sCQBtcpOrEk]
 
