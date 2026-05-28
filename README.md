@@ -86,3 +86,49 @@ A WinForms GUI application that expands the Part 1 console chatbot.
 
 \[https://youtu.be/sCQBtcpOrEk]
 
+
+
+\## References
+
+
+
+Microsoft. 2024. Windows Forms Overview. \[Online]. 
+
+Available at: https://docs.microsoft.com/en-us/dotnet/desktop/winforms
+
+\[Accessed 18 April 2026].
+
+
+
+Microsoft. 2024. RichTextBox Control. \[Online].
+
+Available at: https://docs.microsoft.com/en-us/dotnet/desktop/winforms/controls/richtextbox-control
+
+\[Accessed 18 April 2026].
+
+
+
+Microsoft. 2024. Dictionary Class in C#. \[Online].
+
+Available at: https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary
+
+\[Accessed 18 April 2026].
+
+
+
+South African Police Service. 2024. Cybercrime. \[Online].
+
+Available at: https://www.saps.gov.za
+
+\[Accessed 18 April 2026].
+
+
+
+Cybersecurity and Infrastructure Security Agency. 2024. 
+
+Cybersecurity Awareness. \[Online].
+
+Available at: https://www.cisa.gov/cybersecurity-awareness
+
+\[Accessed 18 April 2026].
+
